@@ -15,7 +15,7 @@ ECサイトから商品名、価格、在庫状況、評価スコアを構造化
   - **Loggingモジュール**を導入し、エラー発生時の原因特定を容易にする「運用重視」の設計
   - 正規表現を用いた複雑なテキストデータ（通貨記号等）のクリーンアップ
   - 実行時の日時をファイル名に自動付与し、履歴管理を容易化
-- **動画**: sha256:f58861a8d2d3dcbc32e4a0bcd2245c5aaa1f9427863ea5c24a8ba17983e69c40
+- **デモ動画**: https://github.com/TH2207/python-scraping-portfolio/releases/download/v1.0/demo_bs4_ebook_scraper.mov
 
 ### 2. 不動産市場データ抽出・分析ツール (`practice2_suumo`)
 不動産ポータルから物件情報を収集し、家賃相場の算出までを自動化します。
@@ -25,6 +25,7 @@ ECサイトから商品名、価格、在庫状況、評価スコアを構造化
   - **ジェネレータ（yield）**を採用し、数万件のデータでもメモリを消費しない設計
   - User-Agent設定によるサイト負荷軽減とアクセス拒否対策
   - Pandasを用いた、文字列（「5万円」等）から数値への高度なデータクレンジング
+- **デモ動画**: https://github.com/TH2207/python-scraping-portfolio/releases/download/v1.0/demo_bs4_realestate_analysis.mov
 
 ### 3. 会員制サイト自動データ収集ツール (`practice3_quotes`)
 ログイン認証が必要なWebサイトから、複数ページにまたがるデータを一括取得します。
@@ -34,6 +35,7 @@ ECサイトから商品名、価格、在庫状況、評価スコアを構造化
   - 通信速度に左右されない堅牢な待機ロジックを実装
   - Chromeのセキュリティ警告（パスワード漏洩通知等）をプログラム側で抑制
   - ページネーション（次へボタン）の自動判定と遷移処理
+- **デモ動画**: https://github.com/TH2207/python-scraping-portfolio/releases/download/v1.0/demo_selenium_login_automation.mov
 
 ---
 
